@@ -1,0 +1,141 @@
+.profilemenubody{
+    background-image: url("./9-business-formulas-math-haters-cant-ignore.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:50vh;
+}
+.profilemenunav{
+    background-color: antiquewhite;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 2;
+    box-shadow: 0 10px 50px 0px black;
+   
+}
+.profilemenubody1{
+    background-color: antiquewhite;
+    opacity: 80%;
+}
+.navproflie{
+     list-style-type: none;
+     display: flex;
+     margin-left: 800px;
+   
+}
+@media (max-width:675px){
+    .navproflie{
+        list-style-type: none;
+        display: flex;
+        margin-left:0px;
+      
+   }
+}
+.profilemenubtn{
+    border-radius:5px;
+    font-size: 13px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(95, 18, 59);
+    border: 1px solid rgb(44, 25, 35);
+
+}
+.profilemenubtn1{
+    border-radius:5px;
+    font-size: 12px;
+    padding:3px 15px 3px 15px;
+    color: white;
+    background-color:transparent;
+    border: 1px solid white;
+    
+}
+.profilemenubtn2{
+    border-radius:5px;
+    font-size: 13px;
+    padding:3px 20px 3px 20px;
+    color: white;
+    background-color: rgb(95, 18, 59);
+    border: 1px solid rgb(44, 25, 35);
+    
+}
+.profilemenubtn3{
+    font-size: 25px;
+    color: white;  
+}
+.porfilename{
+    color: rgb(22, 22, 22);
+    font-size: 13px;
+    font-weight: bold;
+}
+.porfilename1{
+    color:rgb(95, 18, 59);
+    font-size: 20px;
+}
+.cent{
+    display: grid;
+    place-items: center;
+    margin-left:300px;
+}
+.profiletext{
+    color:rgb(95, 18, 59);  
+}
+.bord{
+    border-radius: 5px;
+}
+.nonline{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+@media (max-width:675px){
+    .cent{
+        display: grid;
+        place-items: center;
+        margin-left:100px;
+    }
+}
+.dropdowncolor{
+    border: 2px solid rgb(95, 18, 59) ;
+    color:rgb(95, 18, 59); 
+    font-weight: bold;
+}
+.profilecard{
+    position: relative;
+    
+}
+.profilecard1{
+    
+    position: absolute;
+    margin:5px 0 0 0;
+    font-size: 20px;
+    color:rgb(95, 18, 59);
+    left: 280px; 
+    
+   
+}
+@media (max-width:675px){
+    .profilecard1{
+        position: absolute;
+        margin:10px 0 0 0;
+        font-size:30px;
+        color:rgb(95, 18, 59); 
+        left: 300px;
+       
+       
+    }  
+}
+.profilecard2{
+    border: 2px solid rgb(95, 18, 59) ;
+    background-color:rgba(221, 197, 210, 0.5) ;
+}
+.displayspan{
+    font-size:25px;
+    font-weight: bold;
+    
+}
+@media (max-width:675px){
+    .displayspan{
+        display: none;
+        
+    }
+   
+}
